@@ -58,23 +58,23 @@ nav a{
 	border-radius:30px
 }
 
-/* section{ */
-	/* margin:2% 0% 0% 0% */
-/* } */
+section{
+	margin:2% 0% 0% 0%
+}
 
 
-/* .div1{ */
-	/* position:absolute; */
-	/* top:30%; */
-	/* left:20%; */
-	/* color:white; */
-	/* font-size:40px; */
-/* } */
+.div1{
+	position:absolute;
+	top:30%;
+	left:20%;
+	color:white;
+	font-size:40px;
+}
 
-/* .h1{ */
-	/* color:lightyellow; */
-	/* opacity:0.9; */
-/* } */
+.h1{
+	color:lightyellow;
+	opacity:0.9;
+}
 
 /* .div2{ */
 	/* background-color:#D27D2D; */
