@@ -22,7 +22,8 @@ header{
 }
 
 main{
-	margin-top:8%
+	margin-top:8%;
+	
 }
 
 .logo{
@@ -241,3 +242,30 @@ footer{
 	margin:4% 0% 0% 0%;
 	color:white
 }
+
+ul{
+	list-style-type:none;
+	width:20%;
+}
+
+li{
+	font-size:18px
+}
+
+.lmar{
+	margin:5% 0% 0% 0%;
+}
+
+li i{
+	font-size:32px;
+}
+
+.i{
+	margin:0% 0% 0% 3%
+}
+
+.align{
+	vertical-align:top;
+	margin:1.2% 0% 0% 15%;
+}
+
