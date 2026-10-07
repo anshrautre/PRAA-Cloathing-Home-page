@@ -14,33 +14,31 @@ body{
 header{
 	position:fixed;
 	top:0;
-	padding:0.5%;
+	padding:1%;
 	background-color:#D27D2D;
 	color:white;
-	z-index:5;
-	width:100%
+	z-index:10;
+	width:100%;
 }
 
-main{
-	margin-top:8%;
-	
+nav div{
+	display:inline-block;
+	font-size:24px;
+	margin:0.5% 0% 0% 3.5%;	
 }
+
 
 .logo{
 	border:0px solid white;
 	border-radius:100px;
-	margin:0% 0% 0% 5%
-	
-}
-
-.inline{
-	display:inline-block;
+	margin:0% 0% 0% 7% 
 }
 
 form{
+	display:inline-block;
 	width:20%;
 	vertical-align:top;
-	margin:0.7% 0% 0% 2%;
+	margin:0.5% 0% 0% 3%;
 }
 
 form input{
@@ -50,222 +48,219 @@ form input{
 	height:25px;
 }
 
-.a{
-	margin:0.2% 0% 0% 5%;
-	width:100px;
-	
-}
-
 nav a{
-	vertical-align:top;
 	display:inline-block;
-	margin:0.8% 0% 0% 4%;
-	font-size:20px;
+	margin:0.5% 0% 0% 1%;
+	vertical-align:top;
+	font-size:22px;
 	color:white;
 	text-decoration:none;
 }
 
-.mar1{
-	vertical-align:top;
-	margin:0.8% 0% 0% 1%;
-}
-
 .pro{
 	vertical-align:top;
-	margin:0% 0% 0% 1.5%;
-	border-radius:30px
-}
-
-section{
-	margin:5% 0% 0% 0%
+	margin:0% 0% 0% 2%;
+	border-radius:30px;
 }
 
 
-.div1{
-	position:absolute;
-	top:38%;
-	left:15%;
-	color:white;
-	font-size:40px;
-}
 
-.div2{
-	background-color:#D27D2D;
-	padding:0.5%;
-	margin-bottom:2%
-}
 
-.div3{
-	margin:2% 0% 0% 2.5%;
-	padding:1%;
-	background-color:white;
-	width:20%
-}
 
-.h1{
-	color:beige;
-	opacity:10;
-}
+/* main{ */
+	/* margin-top:8%;	 */
+/* } */
 
-.img1{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/JULY/7/oNtLl6fu_c346a800924d418d942073315d44d528.jpg");
-	height:400px;
-	background-size:cover;	
-}
+/* section{ */
+	/* margin:5% 0% 0% 0% */
+/* } */
 
-.img2{
-	background-image:url("https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/DECEMBER/30/n3zpjpEg_8987b2876e18459791ab3c1cb58e2a11.jpg");
-	height:400px;
-	background-size:cover		
-}
 
-.img3{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/SEPTEMBER/9/iEDCD2ce_abefae102f66461884a9d80f7ee7213f.jpg");
-	height:400px;
-	background-size:cover		
-}
+/* .div1{ */
+	/* position:absolute; */
+	/* top:38%; */
+	/* left:15%; */
+	/* color:white; */
+	/* font-size:40px; */
+/* } */
 
-.img4{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MARCH/6/gwSLivOr_ba2cdc2e28744059a6c302ee13430d29.jpg");
-	height:400px;
-	background-size:cover		
-}
+/* .div2{ */
+	/* background-color:#D27D2D; */
+	/* padding:0.5%; */
+	/* margin-bottom:2% */
+/* } */
 
-.wimg1{
-	background-image:url("https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34117630/2025/5/26/0ec97222-51dd-4feb-b0a1-9b92b23ba6e11748260860382-Anouk-Women-Printed-Regular-Mirror-Work-Pure-Cotton-Kurta-wi-1.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .div3{ */
+	/* margin:2% 0% 0% 2.5%; */
+	/* padding:1%; */
+	/* background-color:white; */
+	/* width:20% */
+/* } */
 
-.wimg2{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/2/FqUT5zVS_fce02acd036a44d7acd88d16d9ba0fb9.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .h1{ */
+	/* color:beige; */
+	/* opacity:10; */
+/* } */
 
-.wimg3{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/11/378ae426ec884ec5a0da79501042766d.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .img1{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/JULY/7/oNtLl6fu_c346a800924d418d942073315d44d528.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;	 */
+/* } */
 
-.wimg4{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/2/8860513fab564d19a92f09da9cdf7cd5.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .img2{ */
+	/* background-image:url("https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/DECEMBER/30/n3zpjpEg_8987b2876e18459791ab3c1cb58e2a11.jpg"); */
+	/* height:400px; */
+	/* background-size:cover		 */
+/* } */
 
-.kimg1{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MAY/17/HDt9wBma_667d8752d8914bd98621a6e2e8fab3bb.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .img3{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/SEPTEMBER/9/iEDCD2ce_abefae102f66461884a9d80f7ee7213f.jpg"); */
+	/* height:400px; */
+	/* background-size:cover		 */
+/* } */
 
-.kimg2{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/AUGUST/19/7146fa406ee34688b1833735a4e831e1.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .img4{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MARCH/6/gwSLivOr_ba2cdc2e28744059a6c302ee13430d29.jpg"); */
+	/* height:400px; */
+	/* background-size:cover		 */
+/* } */
 
-.kimg3{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/21/43183789533d4f78ad34f468994632cf.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .wimg1{ */
+	/* background-image:url("https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34117630/2025/5/26/0ec97222-51dd-4feb-b0a1-9b92b23ba6e11748260860382-Anouk-Women-Printed-Regular-Mirror-Work-Pure-Cotton-Kurta-wi-1.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.kimg4{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/AUGUST/24/ddd82aeab267489aa12908ec6a9f4404.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .wimg2{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2025/MAY/2/FqUT5zVS_fce02acd036a44d7acd88d16d9ba0fb9.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.pimg1{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16242358/2024/11/11/5d978e1c-752d-43fb-8f69-fa5dbf07c50e1731331500304-Quench-Set-of-24-Acne-Patches-With-Tea-Tree-Oil--Korean-Gins-1.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .wimg3{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/11/378ae426ec884ec5a0da79501042766d.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.pimg2{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/9/3f0616ada18a4be4bd8d27f022f8f9f4.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .wimg4{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/2/8860513fab564d19a92f09da9cdf7cd5.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.pimg3{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MAY/21/aGhsoz31_d5920ab4c1174ba18f631223ee702cdb.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .kimg1{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MAY/17/HDt9wBma_667d8752d8914bd98621a6e2e8fab3bb.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.pimg4{
-	background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/2/8e4d9677bd204052bdbbd7adbb800ad6.jpg");
-	height:400px;
-	background-size:cover;		
-}
+/* .kimg2{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/AUGUST/19/7146fa406ee34688b1833735a4e831e1.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-.head{
-	margin:0% 0% 0% 1%;
-	color:white;
-}
+/* .kimg3{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/21/43183789533d4f78ad34f468994632cf.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-figcaption b{
-	font-size:28px;
-}
+/* .kimg4{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/AUGUST/24/ddd82aeab267489aa12908ec6a9f4404.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-figcaption{
-		margin:2% 0% 0% 0%
+/* .pimg1{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16242358/2024/11/11/5d978e1c-752d-43fb-8f69-fa5dbf07c50e1731331500304-Quench-Set-of-24-Acne-Patches-With-Tea-Tree-Oil--Korean-Gins-1.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-}
+/* .pimg2{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/9/3f0616ada18a4be4bd8d27f022f8f9f4.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-b del{
-	color:#282c3f;
-	font-size:16px
-}
+/* .pimg3{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/MAY/21/aGhsoz31_d5920ab4c1174ba18f631223ee702cdb.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
 
-b span{
-	color:#ff905a;
-	font-size:16px
+/* .pimg4{ */
+	/* background-image:url("https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2026/SEPTEMBER/2/8e4d9677bd204052bdbbd7adbb800ad6.jpg"); */
+	/* height:400px; */
+	/* background-size:cover;		 */
+/* } */
+
+/* .head{ */
+	/* margin:0% 0% 0% 1%; */
+	/* color:white; */
+/* } */
+
+/* figcaption b{ */
+	/* font-size:28px; */
+/* } */
+
+/* figcaption{ */
+		/* margin:2% 0% 0% 0% */
+
+/* } */
+
+/* b del{ */
+	/* color:#282c3f; */
+	/* font-size:16px */
+/* } */
+
+/* b span{ */
+	/* color:#ff905a; */
+	/* font-size:16px */
 	
-}
+/* } */
 
-figcaption p{
-	color:#535665;
-}
+/* figcaption p{ */
+	/* color:#535665; */
+/* } */
 
-.price{
-	font-size:20px
-}
+/* .price{ */
+	/* font-size:20px */
+/* } */
 
-footer{
-	padding:1%;
-	background-color:#D27D2D;
-	margin:4% 0% 0% 0%;
-	color:white
-}
+/* footer{ */
+	/* padding:1%; */
+	/* background-color:#D27D2D; */
+	/* margin:4% 0% 0% 0%; */
+	/* color:white */
+/* } */
 
-ul{
-	list-style-type:none;
-	width:20%;
-}
+/* ul{ */
+	/* list-style-type:none; */
+	/* width:20%; */
+/* } */
 
-li{
-	font-size:18px
-}
+/* li{ */
+	/* font-size:18px */
+/* } */
 
-.lmar{
-	margin:5% 0% 0% 0%;
-}
+/* .lmar{ */
+	/* margin:5% 0% 0% 0%; */
+/* } */
 
-li i{
-	font-size:32px;
-}
+/* li i{ */
+	/* font-size:32px; */
+/* } */
 
-.i{
-	margin:0% 0% 0% 3%
-}
+/* .i{ */
+	/* margin:0% 0% 0% 3% */
+/* } */
 
-.align{
-	vertical-align:top;
-	margin:1.2% 0% 0% 15%;
-}
+/* .align{ */
+	/* vertical-align:top; */
+	/* margin:1.2% 0% 0% 15%; */
+/* } */
 
