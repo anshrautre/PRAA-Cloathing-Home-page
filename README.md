@@ -1,26 +1,71 @@
-# PRAA Clothings 👕✨
+# PRAA Clothings 👕 | Fashion Store Website
 
-A stylish clothing e-commerce website front-end built with **HTML** and **CSS**. PRAA Clothings showcases fashion collections for men, women, and kids, along with featured products and a clean, branded layout.
+## 📖 About the Project
 
-## 🌟 Features
+**PRAA Clothings** is a front-end website project for a modern clothing brand. The website presents a fashion-store experience where visitors can browse collections for men, women, and kids, explore featured products, and find brand and contact information.
 
-- **Navigation bar** with links to Men, Women, Kids, Products, and About.
-- **Hover dropdown menus** for browsing clothing categories.
-- **Product sections** featuring clothing, footwear, accessories, and other items.
-- **Product pricing** with original prices and discount labels.
-- **Search field** in the navigation bar.
-- **About and contact section** in the footer.
-- **Custom brand styling** using PRAA's orange (`#D27D2D`) and beige color palette.
-- **Google Fonts** and **Remix Icon** integration for typography and icons.
+The project focuses on building a visually organized shopping website using **HTML5 and CSS3**. It includes a fixed navigation bar, hover-based category menus, product cards with prices and discount labels, and a footer introducing the brand. The design uses PRAA's orange (`#D27D2D`) and beige color palette to create a consistent brand identity.
 
-## 🛠️ Technologies Used
+> **Project scope:** This is currently a static front-end demonstration. Features such as search, login, sign-up, cart, checkout, and payment processing are not connected to a backend and should not be considered functional unless implemented separately.
 
-- HTML5
-- CSS3
-- Google Fonts
-- Remix Icon
+## ✨ Website Sections and Features
 
-## 📁 Project Structure
+### 1. Navigation Bar
+- Displays the PRAA brand logo.
+- Provides navigation for **Men**, **Women**, **Kids**, **Product**, and **About**.
+- Includes hover-triggered dropdown menus for clothing categories.
+- Contains a search field and Log-In / Sign-In links as part of the interface.
+
+### 2. Men's Wear
+Shows a selection of men's fashion items, including:
+- Washed denim jacket
+- Slim-fit casual shirt
+- Baggy-fit jeans
+- Men's shoes
+
+Product cards display the product name, listed price, original price, and discount percentage.
+
+### 3. Women's Wear
+Presents women's clothing and footwear, including:
+- Printed kurta
+- Wide-leg slit jeans
+- Boots
+- Trench coat
+
+### 4. Kids' Wear
+Displays selected children's fashion items, including:
+- Boys' jeans
+- Running shoes
+- Boys' three-piece suit
+- Girls' lehenga
+
+### 5. Featured Products
+Includes a separate product section with a variety of items, such as acne patches, perfume, toys, and a backpack. This section demonstrates how products from different categories can be presented in a consistent card layout.
+
+### 6. About and Contact Footer
+The footer contains:
+- A short introduction to PRAA Clothings
+- Social-media icon links/icons
+- Contact email and phone information
+- Brand location information
+
+Some contact and social details are currently displayed as interface content; connect them to valid destinations and verify the details before using them publicly.
+
+## 🧰 Technologies Used
+
+- **HTML5** — structures the page, navigation, product sections, and footer.
+- **CSS3** — styles the layout, colors, product cards, fixed header, and hover dropdown menus.
+- **Google Fonts** — provides the selected typography.
+- **Remix Icon** — supplies social-media icons.
+
+## 🎨 Design and Styling
+
+- **Primary brand color:** `#D27D2D`
+- **Background color:** Beige
+- **Visual style:** Fashion-focused layout with product images, pricing, and discount labels.
+- **Navigation interaction:** CSS hover selectors reveal dropdown category menus.
+
+## 📂 Project Structure
 
 ```text
 PRAA-Clothings/
@@ -32,34 +77,37 @@ PRAA-Clothings/
 └── README.md
 ```
 
-> Keep your image files inside the project folder and update the image paths in `index.html` if their names or locations change.
+The image filenames above are examples. Keep the actual image files in your repository and update the paths in `index.html` to match their real filenames.
 
-## 🚀 How to Run
+## ▶️ How to Run the Project
 
-1. Download or clone this repository.
-2. Make sure `index.html`, `style.css`, and the required images are in the correct locations.
-3. Open `index.html` in your browser.
+1. Download or clone the repository.
+2. Keep `index.html`, `style.css`, and the required images in the same project structure.
+3. Open `index.html` in a web browser.
 
-No package installation or build tools are required for this static front-end project.
+This is a static HTML/CSS project, so it does not require package installation or a build command.
 
-## 🎨 Brand Style
+## ⚠️ Before Publishing
 
-- **Primary color:** `#D27D2D`
-- **Background color:** Beige
-- **Design:** Fashion-focused product cards and hover-based category navigation.
+- Replace computer-specific image paths such as `C:\Users\...` with relative paths, for example `IMG/logo.png`.
+- Replace the local `file:///...` navigation link with a relative link such as `index.html`.
+- Confirm that all product and cover images load from the repository.
+- Check contact information and add real social-media URLs if you want the footer icons to link to profiles.
+- Test the dropdown menus and layout at different screen sizes.
 
-## 📌 Future Improvements
+## 🚀 Possible Future Enhancements
 
-- Make the layout responsive for mobile and tablet screens.
-- Connect the search field to product filtering.
-- Add working login and sign-up pages.
-- Add shopping cart, product details, and checkout functionality.
-- Replace local computer image paths with relative project paths.
+- Responsive design for mobile, tablet, and desktop screens.
+- Functional product search and category filtering.
+- Dedicated product-detail pages.
+- Working login and registration pages.
+- Shopping cart, checkout, and payment integration.
+- Backend and database integration for products and users.
 
-## 👤 Author
+## 👨‍💻 Author
 
-Created as a front-end web development project for **PRAA Clothings**.
+Developed as a front-end web development project for **PRAA Clothings**.
 
 ---
 
-*PRAA Clothings — Style that expresses you.*
+**PRAA Clothings — Style that expresses you.**
