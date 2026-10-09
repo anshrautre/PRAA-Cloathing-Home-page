@@ -326,14 +326,21 @@ li i{
 
 .one2{
 	display:none;
-	margin:45% 0% 0% 0%;
+	margin:0% 0% 0% 0%;
 	color:white;
 	width:700px;
 	background-color:#D27D2D;
 }
 
+.one2:hover{
+	display:block;
+}
+
 .one1:hover + .one2{
 	display:block;
+	color:white;
+	width:700px;
+	background-color:#D27D2D;
 }
 
 .two{
@@ -345,13 +352,16 @@ li i{
 
 .two2{
 	display:none;
-	margin:30% 0% 0% 0%;
 	color:white;
 	width:700px;
 	background-color:#D27D2D;
 }
 
 .two1:hover + .two2{
+	display:block;
+}
+
+.two2:hover{
 	display:block;
 }
 
@@ -361,19 +371,6 @@ li i{
 	top:1;
 	left:29%
 }
-
-.two2{
-	display:none;
-	margin:30% 0% 0% 0%;
-	color:white;
-	width:700px;
-	background-color:#D27D2D;
-}
-
-.two1:hover + .two2{
-	display:block;
-}
-
 
 .four{
 	position:fixed;
