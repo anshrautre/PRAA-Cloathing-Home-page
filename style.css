@@ -35,13 +35,14 @@ main{
 
 .inline{
 	display:inline-block;
-	margin:0.8% 0% 0% 4%;
+	margin:0.7% 0% 0% 3%;
 }
 
 form{
-	width:20%;
-	vertical-align:top;
-	margin:0.7% 0% 0% 2%;
+	width:25%;
+	position:fixed;
+	top:1;
+	left:54%;
 }
 
 form input{
@@ -52,23 +53,25 @@ form input{
 }
 
 .a{
-	margin:0.2% 0% 0% 5%;
-	width:100px;
-	
+	margin:0.2% 0% 0% 5%;	
 }
 
-nav a{
-	vertical-align:top;
-	margin:0.8% 0% 0% 4%;
-	display:inline-block;
-	font-size:20px;
+a{
+	font-size:22px;
 	color:white;
 	text-decoration:none;
 }
 
 .mar1{
-	vertical-align:top;
-	margin:0.8% 0% 0% 1%;
+	position:fixed;
+	top:1;
+	left:80%;
+}
+
+.mar2{
+	position:fixed;
+	top:1;
+	left:86%;
 }
 
 .pro{
@@ -268,20 +271,15 @@ li i{
 .align{
 	vertical-align:top;
 	margin:1.2% 0% 0% 15%;
+	width:20%;
 }
 
-.one2{
-	display:none;
-	margin-top:20%;
-	color:#D27D2D;
-	width:500px
+.align1{
+	vertical-align:top;
+	margin:1.2% 0% 0% 10%;
+	width:20%;
 }
 
-.one1:hover + .one2{
-	background-color:#F5F5DC;
-	display:block;
-	padding:10%;
-}
 
 .dmar{
 	margin:1% 0% 2% 5%;
@@ -289,7 +287,18 @@ li i{
 	list-style-type:none;
 	height:300px;
 	width:20%;
-	background-color:yellow;
+	display:inline-block;
+	padding:2%;
+	vertical-align:top
+}
+
+.dmar1{
+	margin:1% 0% 2% 5%;
+	font-size:20px;
+	vertical-align:top;
+	list-style-type:none;
+	height:300px;
+	width:20%;
 	display:inline-block;
 	padding:2%;
 }
@@ -302,6 +311,7 @@ li i{
 
 .li{
 	margin:10% 0% 0% 0%;
+	width:160px;
 }
 .li1{
 	margin:5% 0% 0% 0%;
@@ -309,4 +319,72 @@ li i{
 
 .one{
 	width:3.6%;
+	position:fixed;
+	top:1;
+	left:13%;
+}
+
+.one2{
+	display:none;
+	margin:45% 0% 0% 0%;
+	color:white;
+	width:700px;
+	background-color:#D27D2D;
+}
+
+.one1:hover + .one2{
+	display:block;
+}
+
+.two{
+	width:5.5%;
+	position:fixed;
+	top:1;
+	left:20%
+}
+
+.two2{
+	display:none;
+	margin:30% 0% 0% 0%;
+	color:white;
+	width:700px;
+	background-color:#D27D2D;
+}
+
+.two1:hover + .two2{
+	display:block;
+}
+
+.three{
+	width:5.5%;
+	position:fixed;
+	top:1;
+	left:29%
+}
+
+.two2{
+	display:none;
+	margin:30% 0% 0% 0%;
+	color:white;
+	width:700px;
+	background-color:#D27D2D;
+}
+
+.two1:hover + .two2{
+	display:block;
+}
+
+
+.four{
+	position:fixed;
+	left:36%
+}
+
+.five{
+	position:fixed;
+	left:46%;
+}
+
+ul li span{
+	font-weight:bold;
 }
