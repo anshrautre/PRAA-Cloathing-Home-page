@@ -326,8 +326,6 @@ li i{
 
 .one2{
 	display:none;
-	margin:0% 0% 0% 0%;
-	color:white;
 	width:700px;
 	background-color:#D27D2D;
 }
@@ -336,18 +334,16 @@ li i{
 	display:block;
 }
 
+
 .one1:hover + .one2{
 	display:block;
-	color:white;
-	width:700px;
-	background-color:#D27D2D;
 }
 
 .two{
 	width:5.5%;
 	position:fixed;
 	top:1;
-	left:20%
+	left:20%;
 }
 
 .two2{
@@ -385,3 +381,48 @@ li i{
 ul li span{
 	font-weight:bold;
 }
+
+.main{
+	margin-top:10%;
+	font-size:17.5px;
+	font-weight:15%;
+}
+
+.main2{
+	display:none;
+	height:35px;
+	width:200px;
+	padding:10%;
+	background-color:beige;
+	color:#D27D2D;
+	position:absolute;
+	left:90%;
+	font-size:25px;
+}
+
+.main1:hover + .main2{
+	display:block;
+}
+
+.mai{
+	margin-top:10%;
+	font-size:17.5px;
+	font-weight:15%;
+}
+
+.mai2{
+	display:none;
+	height:35px;
+	width:200px;
+	padding:10%;
+	background-color:beige;
+	color:#D27D2D;
+	position:absolute;
+	left:60%;
+	font-size:25px;
+}
+
+.mai1:hover + .mai2{
+	display:block;
+}
+
